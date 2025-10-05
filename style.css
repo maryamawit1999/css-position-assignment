@@ -1,40 +1,35 @@
-body {
-  margin: 0;
-  height: 100vh;
-  position: relative; /* horizonatl */
-  background: lightblue;
-  font-family: Arial, sans-serif;
-}
-
-/* Style all boxes */
 div {
-  position: vertical;
+  position: absolute;
   padding: 10px 20px;
-  background: blue;
-  color: white;
+  background-color: aqua;
+  border: 2px solid navy;
+  font-family: Arial, sans-serif;
   font-weight: bold;
-  border-radius: 6px;
 }
 
-/* Corner positions */
+/* Positioning each box */
 .top-left {
-  top: 10px;
+  top: 20px;
   left: 10px;
+  background-color:pink
 }
 
 .top-right {
-  top: 10px;
+  top: 20px;
   right: 10px;
+  background-color:pink
 }
 
 .bottom-left {
-  bottom: 10px;
+  bottom: 20px;
   left: 10px;
+  background-color:pink
 }
 
 .bottom-right {
-  bottom: 10px;
+  bottom: 20px;
   right: 10px;
+  background-color:pink
 }
 
 /* Bonus: Center */
@@ -42,5 +37,7 @@ div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: seagreen;
+  background-color:lightpink
 }
+
+ 
