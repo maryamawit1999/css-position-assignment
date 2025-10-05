@@ -1,0 +1,37 @@
+div {
+  position: absolute;
+  padding: 10px 20px;
+  background-color: aqua;
+  border: 2px solid navy;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* Positioning each box */
+.top-left {
+  top: 20px;
+  left: 10px;
+}
+
+.top-right {
+  top: 20px;
+  right: 10px;
+}
+
+.bottom-left {
+  bottom: 20px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 20px;
+  right: 10px;
+}
+
+/* Bonus: Center */
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+}
